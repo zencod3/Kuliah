@@ -1,4 +1,4 @@
-package Latihan_Praktikum;
+package Kuliah.StrukturData.Modul1.LatihanPraktikum;
 
 public class Konsumsi<M, I> {
     private M makanan;

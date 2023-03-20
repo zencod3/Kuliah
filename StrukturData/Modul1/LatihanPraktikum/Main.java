@@ -1,4 +1,4 @@
-package Latihan_Praktikum;
+package Kuliah.StrukturData.Modul1.LatihanPraktikum;
 
 import java.util.ArrayList;
 

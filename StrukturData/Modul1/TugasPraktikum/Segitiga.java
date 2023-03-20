@@ -1,4 +1,4 @@
-package Tugas_Praktikum;
+package Kuliah.StrukturData.Modul1.TugasPraktikum;
 
 import java.util.Scanner;
 
