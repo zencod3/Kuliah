@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="45890054-DCD2-E8B2-B65E-AC1D7466121F" name="Ticket">
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:06 UTC</createdTime>
+<generatorID>E15EAAAC-F28C-B718-5B1F-37630B00ECED</generatorID>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<engineerTo>
+<item key="B6E1D825-D21B-1AD8-4D64-C06CC7BB68FE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TicketId" id="3966F74A-BE8C-C29E-BD99-B718C7CE80F3">
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:06 UTC</createdTime>
+<generatorID>DA4C33A7-EC8B-108B-E56F-EDFA9DEFF562</generatorID>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<engineerTo>
+<item key="B6E1D825-D21B-1AD8-4D64-C06CC7BB68FE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Title" id="1C8721FC-37AF-E6E5-5785-C4084FE23C36">
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:06 UTC</createdTime>
+<generatorID>F650B3D8-B94D-2A6F-FDD3-D0C714455189</generatorID>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<engineerTo>
+<item key="B6E1D825-D21B-1AD8-4D64-C06CC7BB68FE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Description" id="A50B2E2A-3F18-9B99-AAC9-C77F5F50C2D8">
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:06 UTC</createdTime>
+<generatorID>EB0A7C39-1272-3FD0-3649-07208E4C154E</generatorID>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<engineerTo>
+<item key="B6E1D825-D21B-1AD8-4D64-C06CC7BB68FE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Priority PriorityId" id="43A8660E-8BB3-597D-4B06-5B33A1D9E13D">
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:06 UTC</createdTime>
+<generatorID>74B5C965-AF1A-E72B-F2AE-41ABE51344FB</generatorID>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<engineerTo>
+<item key="B6E1D825-D21B-1AD8-4D64-C06CC7BB68FE" value="true"/>
+</engineerTo>
+<referedAttribute>7CD830F3-2F06-E248-8CE0-D882DA9186B3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Category CategoryId" id="BA9A9DB1-8914-068A-ECA8-4F1F1672FA7A">
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:06 UTC</createdTime>
+<generatorID>742D21F2-1340-3B43-0459-762D090A5831</generatorID>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<engineerTo>
+<item key="B6E1D825-D21B-1AD8-4D64-C06CC7BB68FE" value="true"/>
+</engineerTo>
+<referedAttribute>03F7D328-1F81-71BB-0B78-5E2E4700CB30</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="User UserId" id="08951834-3DBB-6CA7-221B-4B79566CBD10">
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:06 UTC</createdTime>
+<generatorID>9DBAE3A4-FF86-32BC-D323-B1BB4BC7A3EA</generatorID>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<engineerTo>
+<item key="B6E1D825-D21B-1AD8-4D64-C06CC7BB68FE" value="true"/>
+</engineerTo>
+<referedAttribute>EA46F389-A998-C67C-8C6C-E73651D33CFF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Department DepartmentId" id="61E96595-E80A-0080-10A2-88882ECEDE77">
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:06 UTC</createdTime>
+<generatorID>3EF8BCE7-A15B-8460-9A60-152527ECED59</generatorID>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<engineerTo>
+<item key="B6E1D825-D21B-1AD8-4D64-C06CC7BB68FE" value="true"/>
+</engineerTo>
+<referedAttribute>03270121-B5CE-A78A-B780-1D503646EC20</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C0BE20A9-C734-DDB7-0CD1-4C747D640380" name="Ticket PK">
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:06 UTC</createdTime>
+<generatorID>91FBC681-88A4-3189-A56F-DEC5BEEB245C</generatorID>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B6E1D825-D21B-1AD8-4D64-C06CC7BB68FE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3966F74A-BE8C-C29E-BD99-B718C7CE80F3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

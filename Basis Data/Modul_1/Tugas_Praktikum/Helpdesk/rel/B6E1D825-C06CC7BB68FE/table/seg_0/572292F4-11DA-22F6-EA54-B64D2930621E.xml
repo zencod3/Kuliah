@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="572292F4-11DA-22F6-EA54-B64D2930621E" name="Category">
+<sourceDDLFile>Helpdesk2.ddl</sourceDDLFile>
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:02 UTC</createdTime>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<importedID>DF9AEF47-52A2-8BE9-1B77-993E3D7CD767</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CategoryId" id="68391485-9C2D-3719-AB36-46EA6B8B0B5E">
+<sourceDDLFile>Helpdesk2.ddl</sourceDDLFile>
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:02 UTC</createdTime>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<importedID>D672FDD0-DF8D-B244-902D-F023D1799119</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C6EB233E-836B-E8D9-4097-A5F4783AD1DC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="BA08A9A4-3F1A-5FE7-D4A0-3E46C1B82106">
+<sourceDDLFile>Helpdesk2.ddl</sourceDDLFile>
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:02 UTC</createdTime>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<importedID>65CC990A-B544-0B11-539F-66CA8113ED06</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AE448209-763F-69B4-E9D2-918FC54A52B1" name="Category_PK">
+<sourceDDLFile>Helpdesk2.ddl</sourceDDLFile>
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:02 UTC</createdTime>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<importedID>C2FC9E9A-3205-81F9-F912-D35A487AC4B9</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68391485-9C2D-3719-AB36-46EA6B8B0B5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

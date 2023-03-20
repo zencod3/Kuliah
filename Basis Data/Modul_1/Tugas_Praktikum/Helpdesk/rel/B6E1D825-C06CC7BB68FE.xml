@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="B6E1D825-D21B-1AD8-4D64-C06CC7BB68FE" mainViewID="BD97260C-76F6-9640-797F-15ADB08FCD8F">
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:06:50 UTC</createdTime>
+<ownerDesignName>Helpdesk2</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>Helpdesk2.ddl</fileName>
+<pathName>C:\Users\luthf\Dev\Praktikum\Basis Data\Modul_1\Tugas_Praktikum</pathName>
+<dbType>17</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

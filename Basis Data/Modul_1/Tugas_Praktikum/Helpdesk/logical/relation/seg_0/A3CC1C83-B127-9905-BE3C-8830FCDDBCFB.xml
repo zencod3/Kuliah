@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Action_User_FK" directorySegmentName="seg_0" id="A3CC1C83-B127-9905-BE3C-8830FCDDBCFB">
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:06 UTC</createdTime>
+<generatorID>F1E16D20-2D8C-7E27-4C9A-39FC81620B54</generatorID>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<engineerTo>
+<item key="B6E1D825-D21B-1AD8-4D64-C06CC7BB68FE" value="true"/>
+</engineerTo>
+<sourcePk>41EACCEF-54EB-759C-0849-D54CE520F8E7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>68F322BD-F3F6-F08E-A427-D02839CAEB4F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9DECA9D5-6E55-4BD7-EE4F-EC9B5A0A4C74</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

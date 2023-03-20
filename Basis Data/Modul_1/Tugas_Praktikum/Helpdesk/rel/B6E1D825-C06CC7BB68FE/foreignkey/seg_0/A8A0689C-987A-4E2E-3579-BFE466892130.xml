@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A8A0689C-987A-4E2E-3579-BFE466892130" containerWithKeyObject="E0CF87D6-C751-1B4F-AA34-E0F493F391BD" localFKIndex="FBD3AC9A-2FBF-EB9A-EC2C-AD240A0EF2CE" name="Comment_Ticket_FK">
+<sourceDDLFile>Helpdesk2.ddl</sourceDDLFile>
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:02 UTC</createdTime>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<importedID>E219F909-C413-1936-9F5D-8E655241525F</importedID>
+<referredTableLongName>Ticket</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E15EAAAC-F28C-B718-5B1F-37630B00ECED</referredTableID>
+<keyObject>91FBC681-88A4-3189-A56F-DEC5BEEB245C</keyObject>
+<referredKeyID>91FBC681-88A4-3189-A56F-DEC5BEEB245C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TicketId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

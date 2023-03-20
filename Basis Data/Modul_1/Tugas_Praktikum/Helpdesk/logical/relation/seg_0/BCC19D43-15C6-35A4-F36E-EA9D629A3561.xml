@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Redemption_User_FK" directorySegmentName="seg_0" id="BCC19D43-15C6-35A4-F36E-EA9D629A3561">
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:06 UTC</createdTime>
+<generatorID>02C9B574-CABB-09F8-E611-5C492E3D12F6</generatorID>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<engineerTo>
+<item key="B6E1D825-D21B-1AD8-4D64-C06CC7BB68FE" value="true"/>
+</engineerTo>
+<sourcePk>41EACCEF-54EB-759C-0849-D54CE520F8E7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>68F322BD-F3F6-F08E-A427-D02839CAEB4F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4B1D560C-A863-113D-4A0D-0F5C0983CB7C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

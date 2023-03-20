@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="065ABE2C-9E52-CB9F-59AF-3E0257BB49FE" name="Relation_10">
+<createdBy>Abdillah</createdBy>
+<createdTime>2023-03-11 13:59:45 UTC</createdTime>
+<ownerDesignName>Latihan</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Pegawai_ID" id="C7148FAC-1569-B31A-BFE0-B682D8811ECD">
+<createdBy>Abdillah</createdBy>
+<createdTime>2023-03-11 13:59:45 UTC</createdTime>
+<ownerDesignName>Latihan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FD1E1AD7-FDEA-2E47-A18D-45336CB3F795" referredColumn="705E920D-FF8D-7974-973A-5146477F6D5B"/>
+</associations>
+</Column>
+<Column name="Pelanggan_ID" id="6F556FF9-8078-C150-1A26-5FD0E1077BD8">
+<createdBy>Abdillah</createdBy>
+<createdTime>2023-03-11 13:59:45 UTC</createdTime>
+<ownerDesignName>Latihan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2577AD93-666A-E671-0007-55060D7EA4DD" referredColumn="B2148335-9628-D6F4-7ACB-2258E320AE9D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A88156B9-0012-963F-1D9A-3C80D956498B" name="Relation_10_PK">
+<createdBy>Abdillah</createdBy>
+<createdTime>2023-03-11 13:59:45 UTC</createdTime>
+<ownerDesignName>Latihan</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7148FAC-1569-B31A-BFE0-B682D8811ECD"/>
+<colUsage columnID="6F556FF9-8078-C150-1A26-5FD0E1077BD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DEFFEBC4-0C65-14DC-D711-21C7FED47FED" name="Relation_10_Pegawai_FK">
+<createdBy>Abdillah</createdBy>
+<createdTime>2023-03-11 13:59:45 UTC</createdTime>
+<generatorID>94BB7AD7-22F1-B331-8F53-027A23F9FF88</generatorID>
+<ownerDesignName>Latihan</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7148FAC-1569-B31A-BFE0-B682D8811ECD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C48BEDE-7207-16E5-B407-D2B4C28F3DCC" name="Relation_10_Pelanggan_FK">
+<createdBy>Abdillah</createdBy>
+<createdTime>2023-03-11 13:59:45 UTC</createdTime>
+<generatorID>94BB7AD7-22F1-B331-8F53-027A23F9FF88</generatorID>
+<ownerDesignName>Latihan</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F556FF9-8078-C150-1A26-5FD0E1077BD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

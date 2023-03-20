@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="Certificate" directorySegmentName="seg_0" id="FE31FF9E-1FCB-688E-06C8-E2BDD9E14547">
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:02 UTC</createdTime>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CertificateId" id="6D5E0B08-DB32-DE9B-9005-D2EF78C406B8">
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:02 UTC</createdTime>
+<ownerDesignName>Helpdesk</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Reward_RewardId" id="9DEEB7D5-F942-C962-9E2F-217F725BF589">
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:02 UTC</createdTime>
+<ownerDesignName>Helpdesk</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Name" id="D97D06CF-B518-8E7F-24E8-39D37023884B">
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:02 UTC</createdTime>
+<ownerDesignName>Helpdesk</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Certificate_Reward_FK" id="4D97B029-486A-E4F5-7EF0-80C0B76C5148">
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:02 UTC</createdTime>
+<ownerDesignName>Helpdesk</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Certificate_PK" id="9D96CE14-8D49-178A-CCFA-EFD0DE58FF38">
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:02 UTC</createdTime>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

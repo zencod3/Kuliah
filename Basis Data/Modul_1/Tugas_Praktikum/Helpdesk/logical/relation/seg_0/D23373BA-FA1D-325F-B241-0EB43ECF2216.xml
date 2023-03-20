@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Money_Reward_FK" directorySegmentName="seg_0" id="D23373BA-FA1D-325F-B241-0EB43ECF2216">
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:06 UTC</createdTime>
+<generatorID>5D276069-4E98-28AE-3692-5E2E016AB431</generatorID>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<engineerTo>
+<item key="B6E1D825-D21B-1AD8-4D64-C06CC7BB68FE" value="true"/>
+</engineerTo>
+<sourcePk>ED1F5AC2-B850-DB8C-5C93-B8E98F7F3675</sourcePk>
+<arc>D2A8F50A-D15B-5569-0FFF-6BC7015331E1</arc>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BD28FBD2-42D6-7D23-226A-844F8BE480A3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FB94A399-7903-89D6-B370-5C6123354E55</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

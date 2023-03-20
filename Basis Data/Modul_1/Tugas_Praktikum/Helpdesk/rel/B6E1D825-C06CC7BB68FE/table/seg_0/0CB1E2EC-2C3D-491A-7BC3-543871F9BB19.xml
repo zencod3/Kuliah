@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0CB1E2EC-2C3D-491A-7BC3-543871F9BB19" name="Redemption">
+<sourceDDLFile>Helpdesk2.ddl</sourceDDLFile>
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:02 UTC</createdTime>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<importedID>9565360A-67DD-55A9-2052-769155AE3F04</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RedemptionId" id="B85A5E22-F544-D05E-66A3-8501D5C6DB6E">
+<sourceDDLFile>Helpdesk2.ddl</sourceDDLFile>
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:02 UTC</createdTime>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<importedID>DE8B931C-E145-1B04-4DF8-77AB9B6EFAE4</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C6EB233E-836B-E8D9-4097-A5F4783AD1DC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ticket_TicketId" id="F6113D72-C0E2-8B7A-D3DB-A2BAE0A4894F">
+<sourceDDLFile>Helpdesk2.ddl</sourceDDLFile>
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:02 UTC</createdTime>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<importedID>5D6F7E19-A9D0-C4DE-EF46-52D05B5A91D7</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C6EB233E-836B-E8D9-4097-A5F4783AD1DC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8CDDCC7B-F621-FB0A-6884-03E65F760820" referredColumn="DA4C33A7-EC8B-108B-E56F-EDFA9DEFF562"/>
+</associations>
+</Column>
+<Column name="User_UserId" id="CD52B22C-318E-A726-EC11-33F042E21067">
+<sourceDDLFile>Helpdesk2.ddl</sourceDDLFile>
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:02 UTC</createdTime>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<importedID>5508F239-BCA8-85A3-1B0A-39FF04E48577</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C6EB233E-836B-E8D9-4097-A5F4783AD1DC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="02C9B574-CABB-09F8-E611-5C492E3D12F6" referredColumn="8380766B-FB6D-0401-D4D5-7534A6E9544E"/>
+</associations>
+</Column>
+<Column name="Reward_RewardId" id="951833F8-D281-A480-D506-0A62EB420A2F">
+<sourceDDLFile>Helpdesk2.ddl</sourceDDLFile>
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:02 UTC</createdTime>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<importedID>A8EE1D8A-4E18-AD5B-CB9A-363D4D2B4ED3</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C6EB233E-836B-E8D9-4097-A5F4783AD1DC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18B56040-17CA-BAE2-1E56-0743B8887104" referredColumn="03C2BF4C-44E5-B18B-FEBF-EF635ABEA044"/>
+</associations>
+</Column>
+<Column name="Tanggal_Redeem" id="6A02AC54-7AF1-B57E-7807-1DA1C4C5F5C0">
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-14 00:27:42 UTC</createdTime>
+<generatorID>603F5E64-A947-97A4-4273-9ADAF56420B9</generatorID>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status_Redeem" id="E79245BC-5F3B-10B3-BF6C-930BAFD42CEF">
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-14 00:27:42 UTC</createdTime>
+<generatorID>7D76308C-5018-AA70-4E36-36B7D57EAC23</generatorID>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4378732A-DE00-5BBF-30E8-888B9CB1B297" name="Redemption_PK">
+<sourceDDLFile>Helpdesk2.ddl</sourceDDLFile>
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:02 UTC</createdTime>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<importedID>DF7545A5-241C-C898-5F6B-663C1E1B6367</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B85A5E22-F544-D05E-66A3-8501D5C6DB6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB8F662C-084D-633D-6089-D1450316491F" name="Redemption_Reward_FK">
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:02 UTC</createdTime>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="951833F8-D281-A480-D506-0A62EB420A2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="072DFB07-D42B-D3F0-9FFE-79ADB85315E1" name="Redemption_Ticket_FK">
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:02 UTC</createdTime>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6113D72-C0E2-8B7A-D3DB-A2BAE0A4894F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB22CAC3-7F9D-A20E-0033-CE32C65EE085" name="Redemption_User_FK">
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:02 UTC</createdTime>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD52B22C-318E-A726-EC11-33F042E21067"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

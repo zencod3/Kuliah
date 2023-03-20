@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9AF743D5-9895-6A7B-DB60-C8AE0ECD67D0" name="Jenis_Skincare">
+<createdBy>Abdillah</createdBy>
+<createdTime>2023-03-11 13:59:45 UTC</createdTime>
+<generatorID>5F91F317-3C07-60B6-7780-BBE34B98EFCE</generatorID>
+<ownerDesignName>Latihan</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="E6C070BD-BE3E-762C-04AB-B8B39CDAF00E">
+<createdBy>Abdillah</createdBy>
+<createdTime>2023-03-11 13:59:45 UTC</createdTime>
+<generatorID>43BA14BD-3F1F-8C14-EB31-5B1127F5A8A1</generatorID>
+<ownerDesignName>Latihan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Deskripsi" id="33CDEF11-83D0-4C10-8BBC-32B53EE48C99">
+<createdBy>Abdillah</createdBy>
+<createdTime>2023-03-11 13:59:45 UTC</createdTime>
+<generatorID>EE5A3E7C-BF8E-436B-5D08-171FAD796701</generatorID>
+<ownerDesignName>Latihan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Harga" id="098C2D69-7BA5-65C5-1538-E268FF213964">
+<createdBy>Abdillah</createdBy>
+<createdTime>2023-03-11 13:59:45 UTC</createdTime>
+<generatorID>00416CA9-64F6-86C3-758D-2948E5E01FFB</generatorID>
+<ownerDesignName>Latihan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Katalog_Reguler_Kode" id="90AAB1C2-16DB-9E1B-7E46-5E12B1016A1F">
+<createdBy>Abdillah</createdBy>
+<createdTime>2023-03-11 13:59:45 UTC</createdTime>
+<generatorID>070096C1-A3AA-19B1-E0AD-CCCF7677B329</generatorID>
+<ownerDesignName>Latihan</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3D159ADE-AD6C-9CB6-C796-3845A53AE8B8" referredColumn="54443DF6-4E1F-8270-C0E6-40B0838F9F98"/>
+</associations>
+</Column>
+<Column name="Katalog_Promo_Kode" id="6EAA1105-FF1C-BAF5-A4B0-5791D1EA3EE4">
+<createdBy>Abdillah</createdBy>
+<createdTime>2023-03-11 13:59:45 UTC</createdTime>
+<generatorID>CC646930-66FF-A4FD-3827-B8B89A55F1F9</generatorID>
+<ownerDesignName>Latihan</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5EC85A36-9AFE-0068-0ADD-76E555BBBB34" referredColumn="6AA7D1E5-8A17-224D-917E-46716EE04269"/>
+</associations>
+</Column>
+<Column name="Pesanan_Nomor_Pesanan" id="A4298BDD-BBF8-DFD4-F76F-FD8EE0D8C448">
+<createdBy>Abdillah</createdBy>
+<createdTime>2023-03-11 13:59:45 UTC</createdTime>
+<generatorID>8D8D83CC-21C7-17F9-D9E7-AA6823AA29D3</generatorID>
+<ownerDesignName>Latihan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D187F3FD-924B-9112-E7F3-1E41F3106B67" referredColumn="1A5FA073-3DA0-5AB1-9D0F-C121CD3686F2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="26F48DF8-46FF-0E28-0CEA-5242EC7908B5" name="Jenis_Skincare_PK">
+<createdBy>Abdillah</createdBy>
+<createdTime>2023-03-11 13:59:45 UTC</createdTime>
+<generatorID>0A3379E2-8A5D-2D0B-6C5A-4E2D060A5B4A</generatorID>
+<ownerDesignName>Latihan</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6C070BD-BE3E-762C-04AB-B8B39CDAF00E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C8CE1807-7899-5E62-17E6-20269DE02A3A" name="Jenis_Skincare_Katalog_Reguler_FK">
+<createdBy>Abdillah</createdBy>
+<createdTime>2023-03-11 13:59:45 UTC</createdTime>
+<generatorID>F9D3448F-FA3D-EAB7-8952-5DB4085BC060</generatorID>
+<ownerDesignName>Latihan</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90AAB1C2-16DB-9E1B-7E46-5E12B1016A1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC736887-C3C0-05DF-4710-903AA145EA12" name="Jenis_Skincare_Katalog_Promo_FK">
+<createdBy>Abdillah</createdBy>
+<createdTime>2023-03-11 13:59:45 UTC</createdTime>
+<generatorID>3A07CF85-7373-1A93-1396-87EB02C9F305</generatorID>
+<ownerDesignName>Latihan</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6EAA1105-FF1C-BAF5-A4B0-5791D1EA3EE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EAAA92DF-EB75-6D8A-D919-5FA1BAFA1ABD" name="Jenis_Skincare_Pesanan_FK">
+<createdBy>Abdillah</createdBy>
+<createdTime>2023-03-11 13:59:45 UTC</createdTime>
+<generatorID>76CD0B6A-AC4D-DF0C-3658-9A790C586DD8</generatorID>
+<ownerDesignName>Latihan</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4298BDD-BBF8-DFD4-F76F-FD8EE0D8C448"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

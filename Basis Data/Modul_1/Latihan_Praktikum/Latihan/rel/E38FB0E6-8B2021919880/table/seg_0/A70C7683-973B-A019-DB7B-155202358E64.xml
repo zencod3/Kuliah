@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A70C7683-973B-A019-DB7B-155202358E64" name="Katalog_Reguler">
+<createdBy>Abdillah</createdBy>
+<createdTime>2023-03-11 13:59:45 UTC</createdTime>
+<generatorID>96742678-F997-0B93-CD6B-37D1417BE6CA</generatorID>
+<ownerDesignName>Latihan</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Kode" id="54443DF6-4E1F-8270-C0E6-40B0838F9F98">
+<createdBy>Abdillah</createdBy>
+<createdTime>2023-03-11 13:59:45 UTC</createdTime>
+<generatorID>00C8E785-0491-B79A-C636-2428B8132F1E</generatorID>
+<ownerDesignName>Latihan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipe" id="DBA95FBB-A582-6C29-FB13-F155D20087DB">
+<createdBy>Abdillah</createdBy>
+<createdTime>2023-03-11 13:59:45 UTC</createdTime>
+<generatorID>255CF380-25AC-AB65-1759-14F371B1E58B</generatorID>
+<ownerDesignName>Latihan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C8AB4437-219E-FA0D-5F0F-9AB0FE73687D" name="Katalog_Reguler_PK">
+<createdBy>Abdillah</createdBy>
+<createdTime>2023-03-11 13:59:45 UTC</createdTime>
+<generatorID>5DAB9B79-E890-A890-25A9-F5457453898F</generatorID>
+<ownerDesignName>Latihan</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54443DF6-4E1F-8270-C0E6-40B0838F9F98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

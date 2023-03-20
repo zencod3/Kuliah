@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="18B56040-17CA-BAE2-1E56-0743B8887104" containerWithKeyObject="0CB1E2EC-2C3D-491A-7BC3-543871F9BB19" localFKIndex="BB8F662C-084D-633D-6089-D1450316491F" name="Redemption_Reward_FK">
+<sourceDDLFile>Helpdesk2.ddl</sourceDDLFile>
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:02 UTC</createdTime>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<importedID>7F1AE072-327E-0202-0A41-ADD8117DEAD3</importedID>
+<referredTableLongName>Reward</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2268299B-3FE8-57FD-1142-AC75256766CC</referredTableID>
+<keyObject>E5CD658D-558A-D306-923A-5E331BC07CD9</keyObject>
+<referredKeyID>E5CD658D-558A-D306-923A-5E331BC07CD9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>RewardId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

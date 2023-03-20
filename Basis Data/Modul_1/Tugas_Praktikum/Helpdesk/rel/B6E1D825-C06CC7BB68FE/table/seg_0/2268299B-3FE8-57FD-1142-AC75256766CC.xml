@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2268299B-3FE8-57FD-1142-AC75256766CC" name="Reward">
+<sourceDDLFile>Helpdesk2.ddl</sourceDDLFile>
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:02 UTC</createdTime>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<importedID>6C9CBF9F-A74A-BED6-FE6A-50270E8A4B74</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RewardId" id="03C2BF4C-44E5-B18B-FEBF-EF635ABEA044">
+<sourceDDLFile>Helpdesk2.ddl</sourceDDLFile>
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:02 UTC</createdTime>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<importedID>D3171F97-B411-0A9F-60FB-5BDE3EC6C7F8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C6EB233E-836B-E8D9-4097-A5F4783AD1DC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="2169AA60-A896-7A94-6169-518877D6A473">
+<sourceDDLFile>Helpdesk2.ddl</sourceDDLFile>
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:02 UTC</createdTime>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<importedID>658A9C09-25B9-F046-52F3-96C341A62182</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Deskripsi_Reward" id="9A6A84B2-B9B1-18EA-5397-856EB5ABAFF6">
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-14 00:27:42 UTC</createdTime>
+<generatorID>AB73ECA4-D14D-A25B-4000-1F0215573F4E</generatorID>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Jenis_Reward" id="AFC32C08-194B-4B9C-3DBA-8FD2CCF1509A">
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-14 00:27:42 UTC</createdTime>
+<generatorID>FFA6781F-393D-D33D-19B6-FE1CB63FC376</generatorID>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E5CD658D-558A-D306-923A-5E331BC07CD9" name="Reward_PK">
+<sourceDDLFile>Helpdesk2.ddl</sourceDDLFile>
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:02 UTC</createdTime>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<importedID>20046EBF-D686-49F2-DFFB-24CD240A63C4</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03C2BF4C-44E5-B18B-FEBF-EF635ABEA044"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5F91F317-3C07-60B6-7780-BBE34B98EFCE" name="Jenis Skincare">
+<createdBy>Abdillah</createdBy>
+<createdTime>2023-03-11 09:58:21 UTC</createdTime>
+<ownerDesignName>Latihan</ownerDesignName>
+<engineerTo>
+<item key="E38FB0E6-F89B-F9A3-CB6A-8B2021919880" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="43BA14BD-3F1F-8C14-EB31-5B1127F5A8A1">
+<createdBy>Abdillah</createdBy>
+<createdTime>2023-03-11 09:58:47 UTC</createdTime>
+<ownerDesignName>Latihan</ownerDesignName>
+<engineerTo>
+<item key="E38FB0E6-F89B-F9A3-CB6A-8B2021919880" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Deskripsi" id="EE5A3E7C-BF8E-436B-5D08-171FAD796701">
+<createdBy>Abdillah</createdBy>
+<createdTime>2023-03-11 10:00:27 UTC</createdTime>
+<ownerDesignName>Latihan</ownerDesignName>
+<engineerTo>
+<item key="E38FB0E6-F89B-F9A3-CB6A-8B2021919880" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Harga" id="00416CA9-64F6-86C3-758D-2948E5E01FFB">
+<createdBy>Abdillah</createdBy>
+<createdTime>2023-03-11 10:03:25 UTC</createdTime>
+<ownerDesignName>Latihan</ownerDesignName>
+<engineerTo>
+<item key="E38FB0E6-F89B-F9A3-CB6A-8B2021919880" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kode" id="070096C1-A3AA-19B1-E0AD-CCCF7677B329">
+<createdBy>Abdillah</createdBy>
+<createdTime>2023-03-11 11:51:31 UTC</createdTime>
+<generatorID>F9D3448F-FA3D-EAB7-8952-5DB4085BC060</generatorID>
+<ownerDesignName>Latihan</ownerDesignName>
+<engineerTo>
+<item key="E38FB0E6-F89B-F9A3-CB6A-8B2021919880" value="true"/>
+</engineerTo>
+<referedAttribute>00C8E785-0491-B79A-C636-2428B8132F1E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kode1" id="CC646930-66FF-A4FD-3827-B8B89A55F1F9">
+<createdBy>Abdillah</createdBy>
+<createdTime>2023-03-11 11:52:36 UTC</createdTime>
+<generatorID>3A07CF85-7373-1A93-1396-87EB02C9F305</generatorID>
+<ownerDesignName>Latihan</ownerDesignName>
+<engineerTo>
+<item key="E38FB0E6-F89B-F9A3-CB6A-8B2021919880" value="true"/>
+</engineerTo>
+<referedAttribute>5BA9FFBE-FF53-887A-B017-E016AC70657C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nomor Pesanan" id="8D8D83CC-21C7-17F9-D9E7-AA6823AA29D3">
+<createdBy>Abdillah</createdBy>
+<createdTime>2023-03-11 12:12:39 UTC</createdTime>
+<generatorID>76CD0B6A-AC4D-DF0C-3658-9A790C586DD8</generatorID>
+<ownerDesignName>Latihan</ownerDesignName>
+<engineerTo>
+<item key="E38FB0E6-F89B-F9A3-CB6A-8B2021919880" value="true"/>
+</engineerTo>
+<referedAttribute>BBBA5182-FA70-254E-C95C-741F5D2AFC4F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0A3379E2-8A5D-2D0B-6C5A-4E2D060A5B4A" name="Jenis Skincare PK">
+<createdBy>Abdillah</createdBy>
+<createdTime>2023-03-11 10:00:22 UTC</createdTime>
+<ownerDesignName>Latihan</ownerDesignName>
+<engineerTo>
+<item key="E38FB0E6-F89B-F9A3-CB6A-8B2021919880" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>43BA14BD-3F1F-8C14-EB31-5B1127F5A8A1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

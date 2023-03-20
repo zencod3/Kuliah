@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="54748577-CAEE-DCAB-6D34-B9C936DCDBD1" name="Certificate">
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:06 UTC</createdTime>
+<generatorID>FE31FF9E-1FCB-688E-06C8-E2BDD9E14547</generatorID>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<engineerTo>
+<item key="B6E1D825-D21B-1AD8-4D64-C06CC7BB68FE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CertificateId" id="C6C42FA8-62C6-1DD7-246E-816A4BE566F1">
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:06 UTC</createdTime>
+<generatorID>6D5E0B08-DB32-DE9B-9005-D2EF78C406B8</generatorID>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<engineerTo>
+<item key="B6E1D825-D21B-1AD8-4D64-C06CC7BB68FE" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C6EB233E-836B-E8D9-4097-A5F4783AD1DC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="5C82D5E5-D844-0986-D41C-CF01B5DD85C4">
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:06 UTC</createdTime>
+<generatorID>D97D06CF-B518-8E7F-24E8-39D37023884B</generatorID>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<engineerTo>
+<item key="B6E1D825-D21B-1AD8-4D64-C06CC7BB68FE" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>49E3ABE1-5497-9F07-176A-876614EF4338</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Reward RewardId" id="9FAE3179-164C-C747-E8BD-97CD196CF80E">
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:06 UTC</createdTime>
+<generatorID>9A8572D0-B34A-A7D5-C184-96F677959247</generatorID>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<engineerTo>
+<item key="B6E1D825-D21B-1AD8-4D64-C06CC7BB68FE" value="true"/>
+</engineerTo>
+<referedAttribute>2AC1BE82-C3CB-A665-E2FB-0CC6117CAB51</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2ACEC0B2-B1E2-BD39-00A9-230485039594" name="Certificate PK">
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:06 UTC</createdTime>
+<generatorID>9D96CE14-8D49-178A-CCFA-EFD0DE58FF38</generatorID>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B6E1D825-D21B-1AD8-4D64-C06CC7BB68FE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C6C42FA8-62C6-1DD7-246E-816A4BE566F1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

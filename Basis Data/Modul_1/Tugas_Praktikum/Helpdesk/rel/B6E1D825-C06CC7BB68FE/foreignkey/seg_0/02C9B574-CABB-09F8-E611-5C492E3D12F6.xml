@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="02C9B574-CABB-09F8-E611-5C492E3D12F6" containerWithKeyObject="0CB1E2EC-2C3D-491A-7BC3-543871F9BB19" localFKIndex="CB22CAC3-7F9D-A20E-0033-CE32C65EE085" name="Redemption_User_FK">
+<sourceDDLFile>Helpdesk2.ddl</sourceDDLFile>
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:02 UTC</createdTime>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<importedID>CE949261-2736-C5E6-92BB-6301CEA0FC56</importedID>
+<referredTableLongName>User</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B93C9372-BC9A-EC33-9071-0A55C3D07440</referredTableID>
+<keyObject>ACE80B78-4D65-EC25-1761-F3804C9D4F43</keyObject>
+<referredKeyID>ACE80B78-4D65-EC25-1761-F3804C9D4F43</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>UserId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
