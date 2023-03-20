@@ -2,9 +2,6 @@ package Tugas_Praktikum;
 
 import java.util.Scanner;
 
-/**
- * @author Moh Luthfi Zain
- */
 public class Segitiga<T extends Number> {
     private T alas;
     private T tinggi;
