@@ -36,9 +36,6 @@ public class Segitiga<T extends Number> {
             int key = input.nextInt();
             System.out.println("Masukkan Nilai Alas Dan Tinggi Secara Berurutan (dipisahkan oleh tanda koma) : Example : 4,10");
             String[] nilai = input.next().split(",");
-            for (String a : nilai) {
-                System.out.println(a);
-            }
 
             switch (key) {
                 case 1:
