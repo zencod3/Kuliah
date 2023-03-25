@@ -1,0 +1,22 @@
++--------------+--------+
+| Kode Warna   | Warna  |
++--------------+--------+ 
+| [30m	       | Hitam  |
+| [31m	       | Merah  |
+| [32m	       | Hijau  |
+| [33m	       | Kuning |
+| [34m	       | Biru   |
+| [35m	       | Ungu   |
+| [36m	       | Cyan   |
+| [37m	       | Putih  |
++--------------+--------+
+
+Example : "System.out.println("\u001B[31mTulisan berwarna merah\u001B[0m");"
+
+            Penjelasan kode di atas:
+
+            \u001B untuk memulai ANSI escape code.
+
+            [31m untuk mengatur warna teks menjadi merah.
+
+            Untuk mengakhiri ANSI escape code, kita menggunakan \u001B[0m.
