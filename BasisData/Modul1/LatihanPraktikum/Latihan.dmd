@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Latihan" id="F5A3CCC7-3D64-5E5F-E2B9-ED005B2C520B" version="3.5">
-<createdBy>Abdillah</createdBy>
-<createdTime>2023-03-11 09:45:49 UTC</createdTime>
-<ownerDesignName>LatihanModul1</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>F5A3CCC7-3D64-5E5F-E2B9-ED005B2C520B</designId>
-</OSDM_Design>
