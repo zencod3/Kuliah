@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="persewaan_alat_pendakian" directorySegmentName="seg_0" id="EB932CF1-7DE6-125B-BDBB-CC3444892F22">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="kasir" id="07713A7D-E801-3FF7-7E1A-212A8383E4CD">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="qty" id="2390AE9E-E3CB-A8C7-2C10-CD14C1C9F8DE">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="no_pelanggan" id="4FE96CED-2FF3-07D1-D866-D38321489635">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="kode_jenis" id="5475CBD1-6DB4-D391-DE7B-7BB33E0D2AFE">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="total" id="62C7B915-D355-F693-70D5-9693FD9AD0BA">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="jenis_barang" id="76BA855F-0F54-82DB-4B2B-A818F1590F5C">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nama_pelanggan" id="7878D045-91C7-BD29-7668-29A9F1D50DF5">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="jaminan" id="79226D2E-2C83-038C-BCC2-40AD70615A49">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="telepon" id="7A3266F0-C9E5-A389-0F03-DBEFBE28F051">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="kode_barang" id="8A913452-4AA8-D51B-7954-6F10EE074794">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="alamat" id="8E942278-A649-2A2A-38C1-58A9A867F9E9">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="tanggal_kembali" id="C0BEE192-12F0-1159-9CD2-A089BD7A6561">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="no_kasir" id="CE0C267E-8331-712A-C95A-E9A4B9152681">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nama_barang" id="CF1A6A0B-BC43-A59B-1CC8-B0D977FF75AD">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="grandtotal" id="D203FCFE-8042-D77E-6ADC-948D319DE87C">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="tanggal" id="D454B2B2-8D41-C3A2-9AC7-A55F7215D508">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="harga" id="E190BBB5-1D98-6A84-2EB6-B503682C4984">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="no_nota" id="EE2BEA57-980C-7265-7942-3B87ED3901C6">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="persewaan_alat_pendakian_PK" id="12A9FC52-70A6-5138-AB53-52C30B589551">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

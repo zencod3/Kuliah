@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Ticket_Priority_FK" directorySegmentName="seg_0" id="74B5C965-AF1A-E72B-F2AE-41ABE51344FB">
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:06 UTC</createdTime>
+<generatorID>20E7AEFB-3E56-1348-2667-FFDDC0AA270A</generatorID>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<engineerTo>
+<item key="B6E1D825-D21B-1AD8-4D64-C06CC7BB68FE" value="true"/>
+</engineerTo>
+<sourcePk>6CEDDC05-10C8-F93A-AA75-70FE5732C768</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>51A1748F-7635-AA8C-871D-291EF3005243</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>45890054-DCD2-E8B2-B65E-AC1D7466121F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

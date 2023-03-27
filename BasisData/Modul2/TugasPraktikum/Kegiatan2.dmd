@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Kegiatan2" id="04F3EC6D-8E73-55E9-8296-1CEE51074221" version="3.5">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:39:55 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>04F3EC6D-8E73-55E9-8296-1CEE51074221</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="73850A31-E6EF-47A3-33C5-ED8BBF47AE2B">
+<designStoragePath>C:\Kegiatan2</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

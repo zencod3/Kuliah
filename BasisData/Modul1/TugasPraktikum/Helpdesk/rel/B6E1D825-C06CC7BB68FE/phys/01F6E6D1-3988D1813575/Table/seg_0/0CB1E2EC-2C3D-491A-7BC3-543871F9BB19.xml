@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="Redemption" directorySegmentName="seg_0" id="0CB1E2EC-2C3D-491A-7BC3-543871F9BB19">
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:02 UTC</createdTime>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Tanggal_Redeem" id="6A02AC54-7AF1-B57E-7807-1DA1C4C5F5C0">
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-14 06:25:08 UTC</createdTime>
+<ownerDesignName>Helpdesk</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Reward_RewardId" id="951833F8-D281-A480-D506-0A62EB420A2F">
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:02 UTC</createdTime>
+<ownerDesignName>Helpdesk</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RedemptionId" id="B85A5E22-F544-D05E-66A3-8501D5C6DB6E">
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:02 UTC</createdTime>
+<ownerDesignName>Helpdesk</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="User_UserId" id="CD52B22C-318E-A726-EC11-33F042E21067">
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:02 UTC</createdTime>
+<ownerDesignName>Helpdesk</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Status_Redeem" id="E79245BC-5F3B-10B3-BF6C-930BAFD42CEF">
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-14 06:25:08 UTC</createdTime>
+<ownerDesignName>Helpdesk</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Ticket_TicketId" id="F6113D72-C0E2-8B7A-D3DB-A2BAE0A4894F">
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:02 UTC</createdTime>
+<ownerDesignName>Helpdesk</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Redemption_Ticket_FK" id="072DFB07-D42B-D3F0-9FFE-79ADB85315E1">
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:02 UTC</createdTime>
+<ownerDesignName>Helpdesk</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Redemption_Reward_FK" id="BB8F662C-084D-633D-6089-D1450316491F">
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:02 UTC</createdTime>
+<ownerDesignName>Helpdesk</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Redemption_User_FK" id="CB22CAC3-7F9D-A20E-0033-CE32C65EE085">
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:02 UTC</createdTime>
+<ownerDesignName>Helpdesk</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Redemption_PK" id="4378732A-DE00-5BBF-30E8-888B9CB1B297">
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:02 UTC</createdTime>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

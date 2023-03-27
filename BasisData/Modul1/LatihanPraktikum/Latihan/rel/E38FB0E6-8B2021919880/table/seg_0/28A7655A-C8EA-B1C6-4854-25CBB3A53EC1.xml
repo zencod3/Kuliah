@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="28A7655A-C8EA-B1C6-4854-25CBB3A53EC1" name="Auditor">
+<createdBy>Abdillah</createdBy>
+<createdTime>2023-03-11 13:59:45 UTC</createdTime>
+<generatorID>E95978D4-A49E-1CE4-35A7-6CDA25A180E2</generatorID>
+<ownerDesignName>Latihan</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="05C871CD-5D55-EA7D-7839-0FD0CE94A760">
+<createdBy>Abdillah</createdBy>
+<createdTime>2023-03-11 13:59:45 UTC</createdTime>
+<generatorID>84ACB68B-734F-1482-BF8D-9BFC5664E9CC</generatorID>
+<ownerDesignName>Latihan</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E16360E1-DD5B-7B89-1299-8D728DA06E65" referredColumn="705E920D-FF8D-7974-973A-5146477F6D5B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB46BE15-446E-2EED-6846-9899CC734D91" name="Auditor_PK">
+<createdBy>Abdillah</createdBy>
+<createdTime>2023-03-11 13:59:45 UTC</createdTime>
+<generatorID>5AD8592B-8D49-CEF4-E983-ACA54382FB26</generatorID>
+<ownerDesignName>Latihan</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05C871CD-5D55-EA7D-7839-0FD0CE94A760"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="015EE481-293D-3071-B2D9-2F0CE18160AE" name="Auditor_Pegawai_FK">
+<createdBy>Abdillah</createdBy>
+<createdTime>2023-03-11 13:59:45 UTC</createdTime>
+<generatorID>29D37B4D-651E-4FE8-1A78-D50EA4B03E68</generatorID>
+<ownerDesignName>Latihan</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05C871CD-5D55-EA7D-7839-0FD0CE94A760"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

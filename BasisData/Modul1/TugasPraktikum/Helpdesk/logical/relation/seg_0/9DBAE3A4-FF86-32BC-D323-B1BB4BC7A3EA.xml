@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Ticket_User_FK" directorySegmentName="seg_0" id="9DBAE3A4-FF86-32BC-D323-B1BB4BC7A3EA">
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:06 UTC</createdTime>
+<generatorID>80956931-0DF9-3B56-0A1C-612336B0E646</generatorID>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<engineerTo>
+<item key="B6E1D825-D21B-1AD8-4D64-C06CC7BB68FE" value="true"/>
+</engineerTo>
+<sourcePk>41EACCEF-54EB-759C-0849-D54CE520F8E7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>68F322BD-F3F6-F08E-A427-D02839CAEB4F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>45890054-DCD2-E8B2-B65E-AC1D7466121F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

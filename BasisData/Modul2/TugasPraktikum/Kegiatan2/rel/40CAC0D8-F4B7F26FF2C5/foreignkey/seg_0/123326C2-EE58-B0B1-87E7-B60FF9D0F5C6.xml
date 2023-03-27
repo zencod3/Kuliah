@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="123326C2-EE58-B0B1-87E7-B60FF9D0F5C6" containerWithKeyObject="7E96949B-DD7D-E7E0-28EF-B1A677C0B724" localFKIndex="6C643496-12FB-51E2-0F41-3590F77C4888" name="pelanggan_3nf_kasir_3nf_FK">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<generatorID>041C5640-C0C9-BCE2-BBE6-AC0F1B7A969B</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<referredTableLongName>kasir_3nf</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F31074DD-5EA7-A034-7639-49FB600C6D35</referredTableID>
+<keyObject>612212EE-7C18-9B81-38FB-EB92FDF02DD5</keyObject>
+<referredKeyID>612212EE-7C18-9B81-38FB-EB92FDF02DD5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>no_kasir</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

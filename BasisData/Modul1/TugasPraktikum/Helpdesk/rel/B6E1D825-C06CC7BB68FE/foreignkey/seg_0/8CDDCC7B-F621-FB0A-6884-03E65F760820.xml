@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8CDDCC7B-F621-FB0A-6884-03E65F760820" containerWithKeyObject="0CB1E2EC-2C3D-491A-7BC3-543871F9BB19" localFKIndex="072DFB07-D42B-D3F0-9FFE-79ADB85315E1" name="Redemption_Ticket_FK">
+<sourceDDLFile>Helpdesk2.ddl</sourceDDLFile>
+<createdBy>luthf</createdBy>
+<createdTime>2023-03-13 12:07:02 UTC</createdTime>
+<ownerDesignName>Helpdesk</ownerDesignName>
+<importedID>92E4EBF5-7514-358E-5C88-56835D3D9A0B</importedID>
+<referredTableLongName>Ticket</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E15EAAAC-F28C-B718-5B1F-37630B00ECED</referredTableID>
+<keyObject>91FBC681-88A4-3189-A56F-DEC5BEEB245C</keyObject>
+<referredKeyID>91FBC681-88A4-3189-A56F-DEC5BEEB245C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TicketId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

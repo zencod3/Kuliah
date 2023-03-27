@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE40A75B-D321-AD48-9CD4-A0598CC27600" name="Relation_16">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pelanggan_no_pelanggan" id="1BB54C23-37C9-66A6-69BB-EF35CEE1C132">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1BACD116-04F7-BB7F-A10E-140C870D6DC8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9641AD4C-CB53-4F60-BE92-ED6AC261927B" referredColumn="64C6C471-827D-D116-6AA4-EFD15BCB4AA5"/>
+</associations>
+</Column>
+<Column name="barang_kode_barang" id="CF672C79-C4BC-820D-6CB5-1DD0F25E2DD6">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1BACD116-04F7-BB7F-A10E-140C870D6DC8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B4EA0B26-FE8D-DFC8-80B3-99EB35DDC429" referredColumn="102A1390-2404-C7EA-68DA-B48296A78551"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9D7B3853-AC57-96F4-A775-D4A645BF1C62" name="Relation_16_PK">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1BB54C23-37C9-66A6-69BB-EF35CEE1C132"/>
+<colUsage columnID="CF672C79-C4BC-820D-6CB5-1DD0F25E2DD6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5B813E8-F05F-CDD9-1913-38DD936729CD" name="Relation_16_pelanggan_FK">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<generatorID>D3E65E80-B4F4-7CE2-7D9A-64190D24E64F</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1BB54C23-37C9-66A6-69BB-EF35CEE1C132"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AEEA77C9-F3BB-4849-04DB-7A058CA90CC2" name="Relation_16_barang_FK">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<generatorID>D3E65E80-B4F4-7CE2-7D9A-64190D24E64F</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF672C79-C4BC-820D-6CB5-1DD0F25E2DD6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

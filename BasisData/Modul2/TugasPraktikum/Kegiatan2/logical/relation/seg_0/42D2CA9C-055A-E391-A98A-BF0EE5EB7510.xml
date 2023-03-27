@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pelanggan_kasir_fk" directorySegmentName="seg_0" id="42D2CA9C-055A-E391-A98A-BF0EE5EB7510">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:40:17 UTC</createdTime>
+<generatorID>FA8FA4A0-662A-0F86-53A2-C4F92E29E270</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<engineerTo>
+<item key="40CAC0D8-3BF2-93C1-0EF1-F4B7F26FF2C5" value="true"/>
+</engineerTo>
+<sourcePk>948EB493-CCBC-2D5B-62EF-954207923645</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EC2F72E5-ECE1-5226-FAD1-A5D85B887B82</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>908FDBEC-E591-7F03-0006-27EC0B33E9D1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
