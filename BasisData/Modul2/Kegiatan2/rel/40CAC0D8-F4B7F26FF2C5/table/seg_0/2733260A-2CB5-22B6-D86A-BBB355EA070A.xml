@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2733260A-2CB5-22B6-D86A-BBB355EA070A" name="nota">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<generatorID>D6B90975-712C-E42A-CEBF-8E5384BFE484</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="no_nota" id="84669ECB-C8BA-C6CD-31CF-91D16FE87BB4">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<generatorID>E77B620A-BD6B-3BAF-754B-CC10520F27DF</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>82BE963E-A1A1-2CFA-4033-ADB0FF9970C6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qty" id="DCF8DE00-5066-F450-8351-F36F98AD09F9">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<generatorID>99842848-5C6B-F14F-478F-3E269408AFE8</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1BACD116-04F7-BB7F-A10E-140C870D6DC8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kasir_3nf_no_kasir" id="D39D7B5B-B71A-2130-4AE0-449A6ED18AD0">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<generatorID>D446BAB5-DA0A-E3C6-D8DD-C0B71356E082</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1BACD116-04F7-BB7F-A10E-140C870D6DC8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D3D686E-7A40-006A-20C2-59C28B183959" referredColumn="8E4B304E-F1F3-8E1A-7F87-9D0E5B14D8E0"/>
+</associations>
+</Column>
+<Column name="grand_total" id="E02A2638-72A9-5EE1-5D1B-C8564291183A">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<generatorID>73EC1D88-EBD2-7C4E-4761-09D4E830E50C</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1BACD116-04F7-BB7F-A10E-140C870D6DC8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FA7CD7A1-38F7-0DC1-2EF2-DE4306D7A7EB" name="nota_PK">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<generatorID>635F4CBD-6B29-B0E0-F25B-4A99B425185B</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84669ECB-C8BA-C6CD-31CF-91D16FE87BB4"/>
+<colUsage columnID="D39D7B5B-B71A-2130-4AE0-449A6ED18AD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EDDB7348-B13D-6794-41DB-A867EFD4C3BF" name="nota_kasir_3nf_FK">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<generatorID>4F646271-7A8C-19DC-BB9E-A3DC41B89A0C</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D39D7B5B-B71A-2130-4AE0-449A6ED18AD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

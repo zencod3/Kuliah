@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FD7ED41E-456D-7EDA-5FE0-7E0EC4C3393C" name="transaksi">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<generatorID>C204D470-B9C7-99C3-81D2-8DDD4576B5BD</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_transaksi" id="3EFFC6F5-2AD6-4AB5-E420-8F821902A2DE">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<generatorID>3FB15BA2-284F-0D0F-027E-98CB645BAA1E</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1BACD116-04F7-BB7F-A10E-140C870D6DC8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tanggal" id="978E3C8B-6D21-BE0F-4C11-C6193DC4E6BE">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<generatorID>96466F5F-C614-C6CB-F284-3D0767D72824</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>ADC16941-7B85-04AF-FC01-50E734511C15</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tanggal_kembali" id="F8C9A548-774C-03F9-C53C-96BED363BDBD">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<generatorID>92836D38-0BEF-6E3E-C5BF-F64110C00DA0</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>ADC16941-7B85-04AF-FC01-50E734511C15</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nota_no_nota" id="6F962807-C4FE-4866-F408-8E03359338F4">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<generatorID>3346F01F-D5BD-AE08-F132-A02EA7FDCE16</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>82BE963E-A1A1-2CFA-4033-ADB0FF9970C6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="27559D5A-E988-FF42-7742-5A136BE6B9F2" referredColumn="84669ECB-C8BA-C6CD-31CF-91D16FE87BB4"/>
+</associations>
+</Column>
+<Column name="nota_kasir_3nf_no_kasir" id="1131385C-7A74-4E83-2134-23F1F7573924">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<generatorID>27A17900-8226-0C7D-4DFF-4AA23971369C</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1BACD116-04F7-BB7F-A10E-140C870D6DC8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="27559D5A-E988-FF42-7742-5A136BE6B9F2" referredColumn="D39D7B5B-B71A-2130-4AE0-449A6ED18AD0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7E35F718-8A93-3D34-8AC2-BB0954062D23" name="transaksi_PK">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<generatorID>95352757-067C-B15A-9713-252559FC450C</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EFFC6F5-2AD6-4AB5-E420-8F821902A2DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="478F48FE-62C2-43F3-29A4-CDC07AF82A37" name="transaksi_nota_FK">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<generatorID>66492677-3CEA-1238-E429-27896DD385B6</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F962807-C4FE-4866-F408-8E03359338F4"/>
+<colUsage columnID="1131385C-7A74-4E83-2134-23F1F7573924"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

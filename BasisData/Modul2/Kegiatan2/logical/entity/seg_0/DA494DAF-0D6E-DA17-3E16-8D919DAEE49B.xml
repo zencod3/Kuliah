@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DA494DAF-0D6E-DA17-3E16-8D919DAEE49B" name="persewaan alat pendakian 2nf">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:40:17 UTC</createdTime>
+<generatorID>EB04FE3B-7313-248B-A4CD-1A8367F40127</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<engineerTo>
+<item key="40CAC0D8-3BF2-93C1-0EF1-F4B7F26FF2C5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="no nota" id="4EF95910-5F5B-CCDA-1372-D56244C67D28">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:40:17 UTC</createdTime>
+<generatorID>B5438620-4924-4D63-1921-5FEECF38CD4C</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<engineerTo>
+<item key="40CAC0D8-3BF2-93C1-0EF1-F4B7F26FF2C5" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1BACD116-04F7-BB7F-A10E-140C870D6DC8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tanggal" id="A503C304-D0D2-7D62-A83A-DC98C85F14A7">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:40:17 UTC</createdTime>
+<generatorID>070D684F-3B39-71E3-32D9-BCA54C779444</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<engineerTo>
+<item key="40CAC0D8-3BF2-93C1-0EF1-F4B7F26FF2C5" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>ADC16941-7B85-04AF-FC01-50E734511C15</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tanggal kembali" id="36EC8F9F-FA13-0111-47C8-089AF9D8347C">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:40:17 UTC</createdTime>
+<generatorID>3674867B-1466-2CD8-8EF8-BE151AA6736B</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<engineerTo>
+<item key="40CAC0D8-3BF2-93C1-0EF1-F4B7F26FF2C5" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>ADC16941-7B85-04AF-FC01-50E734511C15</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qty" id="700C5A6C-6AA2-0516-BAF0-5563F0BEEA73">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:40:17 UTC</createdTime>
+<generatorID>817A90C1-C4EC-025D-FB6E-FA64170D5C61</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<engineerTo>
+<item key="40CAC0D8-3BF2-93C1-0EF1-F4B7F26FF2C5" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1BACD116-04F7-BB7F-A10E-140C870D6DC8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total" id="C855B334-DFD5-D275-D210-B1FB62A4ED47">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:40:17 UTC</createdTime>
+<generatorID>A2AD5A9B-9FED-B415-9A67-791CA94A9BEC</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<engineerTo>
+<item key="40CAC0D8-3BF2-93C1-0EF1-F4B7F26FF2C5" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1BACD116-04F7-BB7F-A10E-140C870D6DC8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="grandtotal" id="2DF31813-BD3B-6926-93A7-B64EED6D8EC5">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:40:17 UTC</createdTime>
+<generatorID>F468EABE-660D-7A7E-8028-6F43C77C144C</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<engineerTo>
+<item key="40CAC0D8-3BF2-93C1-0EF1-F4B7F26FF2C5" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1BACD116-04F7-BB7F-A10E-140C870D6DC8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="23322145-9466-E7A6-1FB3-7846C339FF13" name="persewaan alat pendakian 2nf pk">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:40:17 UTC</createdTime>
+<generatorID>224ABE0A-5712-1E11-474C-37481EC2298B</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<engineerTo>
+<item key="40CAC0D8-3BF2-93C1-0EF1-F4B7F26FF2C5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4EF95910-5F5B-CCDA-1372-D56244C67D28</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

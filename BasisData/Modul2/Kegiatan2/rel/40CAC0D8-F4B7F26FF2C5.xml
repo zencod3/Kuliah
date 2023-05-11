@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="40CAC0D8-3BF2-93C1-0EF1-F4B7F26FF2C5" mainViewID="5A28587A-8273-A7AE-702C-B4A1DD2CB37B">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:39:55 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>Kegiatan2.ddl</fileName>
+<pathName>C:\Users\zain\Dev\Kuliah\BasisData\Modul2\TugasPraktikum</pathName>
+<dbType>17</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

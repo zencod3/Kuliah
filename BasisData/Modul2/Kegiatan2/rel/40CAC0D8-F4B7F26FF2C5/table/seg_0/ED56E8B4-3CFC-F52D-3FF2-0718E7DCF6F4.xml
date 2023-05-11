@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED56E8B4-3CFC-F52D-3FF2-0718E7DCF6F4" name="barang_3nf">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<generatorID>8F3FEA37-B820-04EE-7786-157F2FB69028</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="kode_barang" id="412A6826-486B-E03B-82F7-CE233D27658E">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<generatorID>59E349FB-DDE6-1EA2-F191-27B4B78BC3E6</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1BACD116-04F7-BB7F-A10E-140C870D6DC8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_barang" id="1C9A4B20-9852-B972-365A-C6B06C98121F">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<generatorID>7B9772FC-D78E-455A-6B81-CA2DCA86BD3C</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>82BE963E-A1A1-2CFA-4033-ADB0FF9970C6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kode_jenis" id="9A5E426E-7D08-99EA-84A9-32C098CCC845">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<generatorID>26B9129A-FD15-9F16-89AA-76CFAC8A5DBE</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>FEE6491F-BE78-2ABE-7837-4FD3CAA47EAF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jenis_barang" id="7F629A48-5FE3-D410-3336-41C040573D71">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<generatorID>35FEA37A-5BCE-BFDA-A55F-C84696E15E60</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>82BE963E-A1A1-2CFA-4033-ADB0FF9970C6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="harga" id="04193E32-9571-C0A6-CF71-59EEC5E0D904">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<generatorID>7DE9DBFC-C958-25EA-E4CE-29A926667042</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1BACD116-04F7-BB7F-A10E-140C870D6DC8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="675BACC8-FF32-1DC2-B833-BC959E141FE3" name="barang_3nf_PK">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<generatorID>8FA05F3A-107F-5722-6CC9-D0D4359A2E40</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="412A6826-486B-E03B-82F7-CE233D27658E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="27559D5A-E988-FF42-7742-5A136BE6B9F2" containerWithKeyObject="FD7ED41E-456D-7EDA-5FE0-7E0EC4C3393C" localFKIndex="478F48FE-62C2-43F3-29A4-CDC07AF82A37" name="transaksi_nota_FK">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<generatorID>66492677-3CEA-1238-E429-27896DD385B6</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<referredTableLongName>nota</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2733260A-2CB5-22B6-D86A-BBB355EA070A</referredTableID>
+<keyObject>FA7CD7A1-38F7-0DC1-2EF2-DE4306D7A7EB</keyObject>
+<referredKeyID>FA7CD7A1-38F7-0DC1-2EF2-DE4306D7A7EB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>no_nota,kasir_3nf_no_kasir</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

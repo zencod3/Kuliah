@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E8F5FBF1-6941-8C32-9DB0-6E0626321ADA" name="Relation_14">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="persewaan_alat_pendakian_2nf_no_nota" id="3B1B3BBE-1099-B59B-0D14-5C4EDE98585E">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1BACD116-04F7-BB7F-A10E-140C870D6DC8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D5ADE99F-C6AE-35C7-EDA0-152A2D1D2E65" referredColumn="C8D442D3-A4FA-670D-64C7-BB63E4853F06"/>
+</associations>
+</Column>
+<Column name="kasir_no_kasir" id="BE81FF75-23DC-53D6-155A-967F2348A9E2">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1BACD116-04F7-BB7F-A10E-140C870D6DC8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3AAC779F-F8A6-15E2-80AB-8A065AC1885F" referredColumn="F13D7DF5-0D67-C02C-2F4D-07A5896CCA5C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="89464CD2-77F6-98C2-0899-2E84741FD687" name="Relation_14_PK">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B1B3BBE-1099-B59B-0D14-5C4EDE98585E"/>
+<colUsage columnID="BE81FF75-23DC-53D6-155A-967F2348A9E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="560E288E-36C2-B5DF-5CD4-1A7E2DF02978" name="Relation_14_persewaan_alat_pendakian_2nf_FK">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<generatorID>3303A63E-59C1-5595-B5E5-513B03C2F33A</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B1B3BBE-1099-B59B-0D14-5C4EDE98585E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD07DA6F-B645-9692-FD1F-BA4E8BD73593" name="Relation_14_kasir_FK">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<generatorID>3303A63E-59C1-5595-B5E5-513B03C2F33A</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE81FF75-23DC-53D6-155A-967F2348A9E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="908FDBEC-E591-7F03-0006-27EC0B33E9D1" name="pelanggan">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:40:17 UTC</createdTime>
+<generatorID>39180F2D-54CD-320E-9942-09FE8DC63BBC</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<engineerTo>
+<item key="40CAC0D8-3BF2-93C1-0EF1-F4B7F26FF2C5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="no pelanggan" id="88DA3B1E-A3E0-E3A6-8587-C1C1530B4F2B">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:40:17 UTC</createdTime>
+<generatorID>911B824F-4A74-DD9A-303D-E1D56BF1E43F</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<engineerTo>
+<item key="40CAC0D8-3BF2-93C1-0EF1-F4B7F26FF2C5" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1BACD116-04F7-BB7F-A10E-140C870D6DC8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama pelanggan" id="0E72B18E-CB7C-805E-BFB9-F61837DEBF80">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:40:17 UTC</createdTime>
+<generatorID>5B14B4C5-0FC1-8010-35E9-5A1F68425F1A</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<engineerTo>
+<item key="40CAC0D8-3BF2-93C1-0EF1-F4B7F26FF2C5" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>82BE963E-A1A1-2CFA-4033-ADB0FF9970C6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="alamat" id="FEED163F-EFA6-ED37-75FC-A35B1C51704E">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:40:17 UTC</createdTime>
+<generatorID>5C3666D8-CFCE-D967-B712-D504D585E1CA</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<engineerTo>
+<item key="40CAC0D8-3BF2-93C1-0EF1-F4B7F26FF2C5" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>82BE963E-A1A1-2CFA-4033-ADB0FF9970C6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telepon" id="EF1026B0-CBDA-366E-036E-4282B0F38C1B">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:40:17 UTC</createdTime>
+<generatorID>D71DABFD-A38D-91AD-798A-1F1CE4AF6ED2</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<engineerTo>
+<item key="40CAC0D8-3BF2-93C1-0EF1-F4B7F26FF2C5" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1BACD116-04F7-BB7F-A10E-140C870D6DC8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jaminan" id="3F0E09D4-10ED-8C61-F873-EB0F4F31DD79">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:40:17 UTC</createdTime>
+<generatorID>5B43B917-F740-2687-7E16-0661BF2E690E</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<engineerTo>
+<item key="40CAC0D8-3BF2-93C1-0EF1-F4B7F26FF2C5" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>82BE963E-A1A1-2CFA-4033-ADB0FF9970C6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kasir no kasir" id="336C64BE-2AAB-7F4B-C000-2B7262C8FC3B">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:40:17 UTC</createdTime>
+<generatorID>42D2CA9C-055A-E391-A98A-BF0EE5EB7510</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<engineerTo>
+<item key="40CAC0D8-3BF2-93C1-0EF1-F4B7F26FF2C5" value="true"/>
+</engineerTo>
+<referedAttribute>DC4B0DD3-21E4-5DCB-CD2E-08FEAC98C58E</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1BACD116-04F7-BB7F-A10E-140C870D6DC8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E7CBA063-5ACD-D2A2-FB89-A7A334DF47D3" name="pelanggan pk">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:40:17 UTC</createdTime>
+<generatorID>86B3BD54-B0C4-8979-0D56-D03F80F10E03</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<engineerTo>
+<item key="40CAC0D8-3BF2-93C1-0EF1-F4B7F26FF2C5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>88DA3B1E-A3E0-E3A6-8587-C1C1530B4F2B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

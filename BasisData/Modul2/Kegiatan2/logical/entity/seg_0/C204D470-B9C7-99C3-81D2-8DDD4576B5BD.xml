@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C204D470-B9C7-99C3-81D2-8DDD4576B5BD" name="transaksi">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:40:17 UTC</createdTime>
+<generatorID>50C589B3-C50D-62A6-9920-12A479055EEB</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<engineerTo>
+<item key="40CAC0D8-3BF2-93C1-0EF1-F4B7F26FF2C5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id transaksi" id="3FB15BA2-284F-0D0F-027E-98CB645BAA1E">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:40:17 UTC</createdTime>
+<generatorID>29B1450D-AAE4-519A-0B83-802E8EAADFA3</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<engineerTo>
+<item key="40CAC0D8-3BF2-93C1-0EF1-F4B7F26FF2C5" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1BACD116-04F7-BB7F-A10E-140C870D6DC8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tanggal" id="96466F5F-C614-C6CB-F284-3D0767D72824">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:40:17 UTC</createdTime>
+<generatorID>2DF36E97-B0D2-0A4A-6EFA-64D6A21CAEB3</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<engineerTo>
+<item key="40CAC0D8-3BF2-93C1-0EF1-F4B7F26FF2C5" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>ADC16941-7B85-04AF-FC01-50E734511C15</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tanggal kembali" id="92836D38-0BEF-6E3E-C5BF-F64110C00DA0">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:40:17 UTC</createdTime>
+<generatorID>F154D243-CE8A-0659-5144-77F279DDA7DD</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<engineerTo>
+<item key="40CAC0D8-3BF2-93C1-0EF1-F4B7F26FF2C5" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>ADC16941-7B85-04AF-FC01-50E734511C15</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="no nota" id="3346F01F-D5BD-AE08-F132-A02EA7FDCE16">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:43:53 UTC</createdTime>
+<generatorID>66492677-3CEA-1238-E429-27896DD385B6</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<engineerTo>
+<item key="40CAC0D8-3BF2-93C1-0EF1-F4B7F26FF2C5" value="true"/>
+</engineerTo>
+<referedAttribute>E77B620A-BD6B-3BAF-754B-CC10520F27DF</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>82BE963E-A1A1-2CFA-4033-ADB0FF9970C6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kasir 3nf no kasir" id="27A17900-8226-0C7D-4DFF-4AA23971369C">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:43:53 UTC</createdTime>
+<generatorID>66492677-3CEA-1238-E429-27896DD385B6</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<engineerTo>
+<item key="40CAC0D8-3BF2-93C1-0EF1-F4B7F26FF2C5" value="true"/>
+</engineerTo>
+<referedAttribute>D446BAB5-DA0A-E3C6-D8DD-C0B71356E082</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1BACD116-04F7-BB7F-A10E-140C870D6DC8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="95352757-067C-B15A-9713-252559FC450C" name="transaksi pk">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:40:17 UTC</createdTime>
+<generatorID>69429B5A-5B6C-1F82-3F41-E234E1DE9B41</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<engineerTo>
+<item key="40CAC0D8-3BF2-93C1-0EF1-F4B7F26FF2C5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3FB15BA2-284F-0D0F-027E-98CB645BAA1E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

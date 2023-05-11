@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8B6BAE00-8818-3418-5137-A1BBD376FC58" name="kasir 3nf">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:40:17 UTC</createdTime>
+<generatorID>CB70D7C4-8CF7-3ADF-492B-9A18E6112A7E</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<engineerTo>
+<item key="40CAC0D8-3BF2-93C1-0EF1-F4B7F26FF2C5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="no kasir" id="330637FB-BF68-674B-F3FA-5B07B23A9A69">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:40:17 UTC</createdTime>
+<generatorID>410E30FD-00BD-16DE-A6FA-61EA63447B4D</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<engineerTo>
+<item key="40CAC0D8-3BF2-93C1-0EF1-F4B7F26FF2C5" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1BACD116-04F7-BB7F-A10E-140C870D6DC8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kasir" id="7A9B433C-F403-5A88-5750-C7A96B9EB8B8">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:40:17 UTC</createdTime>
+<generatorID>DC44ECCA-0351-0F9F-11CB-F4254220CBE7</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<engineerTo>
+<item key="40CAC0D8-3BF2-93C1-0EF1-F4B7F26FF2C5" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>82BE963E-A1A1-2CFA-4033-ADB0FF9970C6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="49AB3E61-AE7C-7257-7DEE-69FD8749A61B" name="kasir 3nf pk">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:40:17 UTC</createdTime>
+<generatorID>01A734AF-8E1C-5B6E-E968-039C21832122</generatorID>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<engineerTo>
+<item key="40CAC0D8-3BF2-93C1-0EF1-F4B7F26FF2C5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>330637FB-BF68-674B-F3FA-5B07B23A9A69</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

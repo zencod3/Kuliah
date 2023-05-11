@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="pelanggan" directorySegmentName="seg_0" id="97DDD336-CDB6-CA86-1991-A4379D3C452C">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="no_pelanggan" id="64C6C471-827D-D116-6AA4-EFD15BCB4AA5">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="telepon" id="7C819993-3622-280D-FED8-B5064C0BEE45">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="kasir_no_kasir" id="9ADC99EB-999F-2190-5D28-5CF6885F0DA9">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="alamat" id="CEC0688C-E251-3123-EF4D-4066CA646523">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nama_pelanggan" id="EEEF7A47-47D0-C634-7497-D85F638D4FAD">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="jaminan" id="FD1B1603-65E6-7FAB-2AEA-EFC11804CAB6">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="pelanggan_kasir_FK" id="0CE92B76-37B4-6541-AF1D-FEF3A6154922">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="pelanggan_PK" id="6107AD4F-FFB4-638A-1BDB-950D18846B56">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

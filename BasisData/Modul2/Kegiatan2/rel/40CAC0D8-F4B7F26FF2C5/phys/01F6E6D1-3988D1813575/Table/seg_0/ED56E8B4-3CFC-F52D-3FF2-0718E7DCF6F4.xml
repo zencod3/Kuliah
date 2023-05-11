@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="barang_3nf" directorySegmentName="seg_0" id="ED56E8B4-3CFC-F52D-3FF2-0718E7DCF6F4">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="harga" id="04193E32-9571-C0A6-CF71-59EEC5E0D904">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nama_barang" id="1C9A4B20-9852-B972-365A-C6B06C98121F">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="kode_barang" id="412A6826-486B-E03B-82F7-CE233D27658E">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="jenis_barang" id="7F629A48-5FE3-D410-3336-41C040573D71">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="kode_jenis" id="9A5E426E-7D08-99EA-84A9-32C098CCC845">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="barang_3nf_PK" id="675BACC8-FF32-1DC2-B833-BC959E141FE3">
+<createdBy>zain</createdBy>
+<createdTime>2023-03-27 14:55:47 UTC</createdTime>
+<ownerDesignName>Kegiatan2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>
