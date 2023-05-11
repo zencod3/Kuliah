@@ -22,7 +22,7 @@ public class Main {
                 if (obj.loginEmail(inputEmail, inputPassword) == true) {
                     Color.getColor("Green", "==== BERHASIL LOGIN SELAMAT DATANG ====\n\n");
                 } else {
-                    Color.getColor("Red","GAGAL LOGIN\n\n");
+                    Color.getColor("Red", "GAGAL LOGIN\n\n");
                 }
             } while (obj.loginEmail(inputEmail, inputPassword) == false);
 
@@ -44,32 +44,32 @@ public class Main {
                     case 1:
                         while (verifikasi == false) {
                             Color.getColor("Blue", "Tambah Data ====\n\n");
-                            Color.getColor("Purple","Masukan NIM : ");
+                            Color.getColor("Purple", "Masukan NIM : ");
                             inputNIM = inputData.next();
-                            Color.getColor("Purple","Masukan nama asisten : ");
+                            Color.getColor("Purple", "Masukan nama asisten : ");
                             inputAsisten = inputData.next();
                             verifikasi = obj.tambahData(inputNIM, inputAsisten);
                         }
                         verifikasi = false;
                         break;
                     case 2:
-                        Color.getColor("Blue","==== Tampil Data ====\n\n");
+                        Color.getColor("Blue", "==== Tampil Data ====\n\n");
                         obj.tampil();
                         break;
                     case 3:
-                        Color.getColor("Blue","==== List NIM Praktikan ====\n\n");
+                        Color.getColor("Blue", "==== List NIM Praktikan ====\n\n");
                         obj.listNimPraktikan();
                         break;
                     case 4:
-                        Color.getColor("Blue","==== List Nama Asisten ====\n\n");
+                        Color.getColor("Blue", "==== List Nama Asisten ====\n\n");
                         obj.listNamaAsisten();
                         break;
                     case 5:
-                        Color.getColor("Blue","==== Total Data ====\n\n");
+                        Color.getColor("Blue", "==== Total Data ====\n\n");
                         System.out.println("Total data yang tersimpan : " + obj.totalEmail());
                         break;
                     case 6:
-                        Color.getColor("Blue","==== Hapus Data ====\n\n");
+                        Color.getColor("Blue", "==== Hapus Data ====\n\n");
                         System.out.print("Masukan NIM : ");
                         inputNIM = inputData.next();
                         System.out.print("Masukan nama asisten : ");
@@ -77,7 +77,7 @@ public class Main {
                         obj.hapusData(inputNIM, inputAsisten);
                         break;
                     case 7:
-                        Color.getColor("Blue","==== Edit Data ====\n\n");
+                        Color.getColor("Blue", "==== Edit Data ====\n\n");
                         System.out.print("Masukan NIM : ");
                         inputNIM = inputData.next();
                         System.out.print("Masukan nama asisten : ");
@@ -87,10 +87,10 @@ public class Main {
                     case 8:
                         obj.search(inputData.next());
                     case 9:
-                        Color.getColor("Red","==== LOG OUT ====");
+                        Color.getColor("Red", "==== LOG OUT ====");
                         break;
                     default:
-                        Color.getColor("Red","==== PILIHAN TIDAK ADA ====\n\n\n");
+                        Color.getColor("Red", "==== PILIHAN TIDAK ADA ====\n\n\n");
                         break;
                 }
             }
