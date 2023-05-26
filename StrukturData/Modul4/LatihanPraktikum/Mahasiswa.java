@@ -13,7 +13,7 @@ public class Mahasiswa {
         nama = nm;
         kelas = kl;
         matkulPraktikum = mat;
-        nim = ni;
+        nim = ni; 
     }
 
     public static void main(String[] args) {
