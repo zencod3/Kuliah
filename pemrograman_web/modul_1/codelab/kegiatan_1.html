@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kegiatan 1</title>
+</head>
+<style>
+  form {
+    width: 400px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+  }
+
+  label {
+    display: block;
+    margin: 10px 0;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  input[type="date"] {
+    cursor: pointer;
+  }
+
+  button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #0099ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+</style>
+
+<body>
+  <form>
+    <label for="nama">Nama</label>
+    <input type="text" id="nama" name="nama" placeholder="Masukkan nama anda">
+
+    <label for="nim">NIM</label>
+    <input type="text" id="nim" name="nim" placeholder="Masukkan NIM anda">
+
+    <label for="tanggal">Tanggal</label>
+    <input type="date" id="tanggal" name="tanggal">
+
+    <label for="alamat">Alamat</label>
+    <textarea id="alamat" name="alamat" rows="5" cols="21" placeholder="Masukkan alamat anda"></textarea>
+
+    <button type="submit">Simpan</button>
+  </form>
+</body>
+
+</html>
