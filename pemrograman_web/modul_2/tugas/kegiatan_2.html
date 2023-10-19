@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List App</title>
+  <Style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f4f4f4;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    input[type="text"] {
+      width: 90%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      width: 95%;
+      padding: 10px 20px;
+      background-color: green;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      width: 95%;
+      margin: 0 auto;
+    }
+
+    li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 10px;
+      margin: 5px 0;
+      background-color: #f9f9f9;
+    }
+
+    li button {
+      background-color: #ff0000;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 20%;
+    }
+
+    li button.edit {
+      background-color: orange;
+    }
+  </Style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>To-Do List</h1>
+    <input type="text" id="task" placeholder="Tambahkan tugas...">
+    <button id="addTask">Tambah</button>
+    <ul id="taskList"></ul>
+  </div>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const taskInput = document.getElementById("task");
+      const addTaskButton = document.getElementById("addTask");
+      const taskList = document.getElementById("taskList");
+
+      addTaskButton.addEventListener("click", function () {
+        const taskText = taskInput.value.trim();
+        if (taskText === "") {
+          alert("Harap masukkan tugas terlebih dahulu.");
+          return;
+        }
+
+        const listItem = document.createElement("li");
+        listItem.innerHTML = `
+            <span>${taskText}</span>
+            <button class="edit">Edit</button>
+            <button class="delete">Hapus</button>
+        `;
+
+        taskList.appendChild(listItem);
+        taskInput.value = "";
+
+        const editButton = listItem.querySelector(".edit");
+        const deleteButton = listItem.querySelector(".delete");
+
+        editButton.addEventListener("click", function () {
+          const newTaskText = prompt("Edit tugas:", taskText);
+          if (newTaskText !== null) {
+            listItem.querySelector("span").textContent = newTaskText;
+          }
+        });
+
+        deleteButton.addEventListener("click", function () {
+          listItem.remove();
+        });
+      });
+    });
+  </script>
+</body>
+
+</html>
