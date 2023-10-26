@@ -1,4 +1,3 @@
-// Contact.js
 import React from 'react';
 import Navbar from '../components/navbar';
 import Hero from '../components/hero';
@@ -8,7 +7,7 @@ function Contact() {
     return (
         <div>
             <Navbar />
-            <Hero title="ContactPage"/>
+            <Hero title="Contact Us"/>
             <Footer />
         </div>
     );

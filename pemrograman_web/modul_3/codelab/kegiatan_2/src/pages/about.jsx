@@ -1,4 +1,3 @@
-// About.js
 import React from 'react';
 import Navbar from '../components/navbar';
 import Hero from '../components/hero';
@@ -8,7 +7,7 @@ function About() {
     return (
         <div>
             <Navbar />
-            <Hero title="AboutPage"/>
+            <Hero title="About Us"/>
             <Footer />
         </div>
     );
